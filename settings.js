@@ -49,7 +49,7 @@ module.exports = {
   },
   READ : {
      ALL_MESSAGES : false,
-     ONLY_COMMANDS : true,
+     ONLY_COMMANDS : false,
      STATUS : true,
   },
   BOT_OFFLINE : false,
