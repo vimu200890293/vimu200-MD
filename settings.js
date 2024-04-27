@@ -16,10 +16,10 @@ Creator : @darkmakerofc , @mr-nima-x
 */
 
 module.exports = {
-  OWNER_NUMBER: "94715166712",
-  SUDO_NUMBERS : "94715166712,94719574492",
-  OWNER_NAME: "『 𝙼𝚁 𝙽𝙸𝙼𝙰 』",
-  BOT_NAME : "ＺＵＳＹＣＯ",
+  OWNER_NUMBER: "94711581301",
+  SUDO_NUMBERS : "94775446071,94723025971",
+  OWNER_NAME: "『 𝙼𝚁 VIMU 』",
+  BOT_NAME : "DARK VIHA",
   ZUSYCO_FILE : "ZUSYCO-QR",
   LOGOS: {
     ALIVE: 'https://i.ibb.co/YTWznr9/ZUSYCO-ALIVE-IMAGE-LOWQ.jpg',
@@ -35,28 +35,28 @@ module.exports = {
   WORK_TYPE : "public",
   WORK_MODE : "onlygroups",
   WORK_MODE_MESSAGE_SEND : false,
-  CAPTION : '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴢᴜꜱʏᴄᴏ ᴍᴅ ʙᴏᴛ',
-  STICKER_PACK : '[ ZUSYCO ]',
-  BAD_WORDS : 'fuck,pussy',
-  ANTI_BAD : false,
+  CAPTION : '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ VIMU ᴍᴅ ʙᴏᴛ',
+  STICKER_PACK : '[ DARK VIHA ]',
+  BAD_WORDS : 'fuck,pussy,sex,palayn,xxx,hukahan',
+  ANTI_BAD : true,
   ANTI_LINKS : 'chat.whatsapp.com',
-  ANTI_LINK : false,
-  ANTI_LINK_KICK : false,
+  ANTI_LINK : true,
+  ANTI_LINK_KICK : true,
   MAX_SIZE : 100,
   MOROCCO_NUMBERS : {
         BLOCK : false,
         NOT_WORKING : false,
   },
   READ : {
-     ALL_MESSAGES : true,
-     ONLY_COMMANDS : false,
-     STATUS : false,
+     ALL_MESSAGES : false,
+     ONLY_COMMANDS : true,
+     STATUS : true,
   },
   BOT_OFFLINE : false,
   INBOX_BLOCK : false,
-  AUTO_REACT : false,
+  AUTO_REACT : true,
   OWNER_REACT : '🤵‍♂️',
-  AUTO_BGM : false,
+  AUTO_BGM : true,
   BGM : {
     "chaio" : "https://github.com/MR-NIMA-X/ZUSYCO-DB/raw/main/media/audios/ZUSYCO-caio.mp3",
     "leo" : "https://github.com/MR-NIMA-X/ZUSYCO-DB/raw/main/media/audios/ZUSYCO-leo.mp3",
@@ -72,12 +72,12 @@ module.exports = {
     "thugs" : "https://github.com/MR-NIMA-X/ZUSYCO-DB/raw/main/media/audios/ZUSYCO-thugs.mp3",
 
   },
-  AUTO_STICKER : false,
+  AUTO_STICKER : true,
   STICKERS : {
     "pit" : "https://i.ibb.co/NVLMQDP/pit.webp",
     "agei" : "https://i.ibb.co/yqk8QQ9/agei.webp",
     "ne" : "https://i.ibb.co/N6Wb6mZ/ne.webp",
   },
-  LOAD_ANIMATION : false,
+  LOAD_ANIMATION : true,
  
 };
